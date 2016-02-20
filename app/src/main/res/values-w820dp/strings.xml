@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_apps_string">Select Apps To Integrate :</string>
+    <string name="facebook">Facebook Mesenger</string>
+    <string name="gmail">Gmail</string>
+    <string name="sms">SMS</string>
+</resources>

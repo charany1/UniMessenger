@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">UniMessenger</string>
     <string name="title_activity_select_apps">SelectAppsActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="select_apps_string">Select Apps To Integrate :</string>
+    <string name="facebook">Facebook Mesenger</string>
+    <string name="gmail">Gmail</string>
+    <string name="sms">SMS</string>
+    <string name="telegram">Telegram</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_contacts">Contacts</string>
 </resources>

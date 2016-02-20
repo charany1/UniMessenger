@@ -10,6 +10,48 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="pioneers.smart.team.makerthon.unimessenger.ui.SelectAppsActivity"
-    tools:showIn="@layout/activity_select_apps">
+    tools:showIn="@layout/activity_select_apps"
+    android:id="@+id/select_apps_RV">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/select_apps_string"
+        android:id="@+id/select_apps_TV"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"/>
+    <ScrollView
+        android:layout_below="@+id/select_apps_TV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/select_apps_TV"
+        android:layout_centerHorizontal="true">
+
+        <include layout="@layout/item_select_app_fb"/>
+        <include layout="@layout/item_select_app_gmail"/>
+        <include layout="@layout/item_select_app_sms"/>
+        <include layout="@layout/item_select_app_telegram"/>
+    </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:id="@+id/proceed_button"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp"
+        android:background="@color/accent"
+        android:textColor="@android:color/white"/>
+
 
 </RelativeLayout>
